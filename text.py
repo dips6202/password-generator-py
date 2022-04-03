@@ -11,7 +11,7 @@ if __name__ =="__main__":
  
  s4 =string.punctuation
  
- plen= int(input("enter the length of the password\n "))
+ plen= int(input("Enter the length of your password\n "))
  s =[]
  s.extend(list(s1))
  s.extend(list(s2))
@@ -20,4 +20,5 @@ if __name__ =="__main__":
  
  random.shuffle(s)
  print("YOUR PASSWORD IS : ")
+
  print("".join(s[0:plen]))
